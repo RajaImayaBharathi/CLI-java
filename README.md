@@ -7,7 +7,6 @@ Tech Stacks
 ```
 Language: Java
 DataBase: PostgreSQL
-Build Tool: Maven/Gradle
 ```
 ---
 
