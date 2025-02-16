@@ -1,3 +1,9 @@
-## *Console Based* Using ** Java And PostgreSQL
-
+## *Console Based*
 ### **Ocean Freight & logistics Management System** 🌊🚢
+
+Tech Stacks
+
+```
+Java
+PostgreSQL
+```
