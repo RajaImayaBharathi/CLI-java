@@ -25,9 +25,11 @@ public class UserController {
 
     public void login() {
         Scanner scanner = new Scanner(System.in);
-        scanner.close();
+        
         String username = userView.getUsername();
+        scanner.nextLine();
         String password = userView.getPassword();
+        scanner.nextLine();
         
         if (users.containsKey(username) && users.get(username).password.equals(password)) {
             userView.displayMessage("Login successful!");
@@ -39,26 +41,26 @@ public class UserController {
         } else {
             userView.displayMessage("Invalid username or password.");
         }
+
+        scanner.close();
     }
 
     public void register() {
         Scanner scanner = new Scanner(System.in);
-        scanner.close();
+        
         String username = userView.getUsername();
         String password = userView.getPassword();
         System.out.print("Enter phone number: ");
         String phoneNumber = scanner.nextLine();
         System.out.print("Enter address: ");
         String address = scanner.nextLine();
-
         users.put(username, new User(username, password, phoneNumber, address, false));
         userView.displayMessage("Registration successful!");
+        scanner.close();
     }
 
     public void customerMenu() {
         Scanner scanner = new Scanner(System.in);
-        scanner.close();
-
         while (true) {
             System.out.println("\n--- Customer Menu ---");
             System.out.println("1. Book Shipment");
@@ -93,12 +95,13 @@ public class UserController {
                 default:
                     userView.displayInvalidOption();
             }
+            scanner.close();
         }
     }
 
     public void adminMenu() {
         Scanner scanner = new Scanner(System.in);
-        scanner.close();
+        
 
         while (true) {
             System.out.println("\n--- Admin Menu ---");
@@ -134,6 +137,7 @@ public class UserController {
                 default:
                     userView.displayInvalidOption();
             }
+            scanner.close();
         }
     }
 

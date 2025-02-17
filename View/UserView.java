@@ -18,16 +18,13 @@ public class UserView {
     }
 
     public String getUsername() {
-        
         Scanner scanner = new Scanner(System.in);
-        scanner.close();
         System.out.print("Enter username: ");
         return scanner.nextLine();
     }
 
     public String getPassword() {
         Scanner scanner = new Scanner(System.in);
-        scanner.close();
         System.out.print("Enter password: ");
         return scanner.nextLine();
     }
@@ -42,7 +39,6 @@ public class UserView {
 
     public String getPlan() {
         Scanner scanner = new Scanner(System.in);
-        scanner.close();
         System.out.print("Select plan (Basic/Fast): ");
         return scanner.nextLine();
     }
@@ -56,7 +52,6 @@ public class UserView {
 
     public String getShipmentId() {
         Scanner scanner = new Scanner(System.in);
-        scanner.close();
         System.out.print("Enter Shipment ID: ");
         return scanner.nextLine();
     }

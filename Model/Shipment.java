@@ -8,7 +8,7 @@ public class Shipment {
     public String status; // Pending, In-Transit, Delivered
     public boolean isPaid;
 
-    Shipment(String shipmentId, String startLocation, String destination, String plan) {
+    public Shipment(String shipmentId, String startLocation, String destination, String plan) {
         this.shipmentId = shipmentId;
         this.startLocation = startLocation;
         this.destination = destination;
