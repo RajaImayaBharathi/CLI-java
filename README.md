@@ -5,9 +5,8 @@
 Tech Stacks
 
 ```
-Language: Java, NextJs, Xterm.js
-DataBase: PostgreSQL 
-Tools: Supabase, Render
+Language: Java
+
 ```
 ---
 
