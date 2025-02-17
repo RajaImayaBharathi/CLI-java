@@ -1,12 +1,12 @@
 package Model;
 
 public class Shipment {
-    String shipmentId;
-    String startLocation;
-    String destination;
-    String plan; // Basic or Fast
-    String status; // Pending, In-Transit, Delivered
-    boolean isPaid;
+    public String shipmentId;
+    public String startLocation;
+    public String destination;
+    public String plan; // Basic or Fast
+    public String status; // Pending, In-Transit, Delivered
+    public boolean isPaid;
 
     Shipment(String shipmentId, String startLocation, String destination, String plan) {
         this.shipmentId = shipmentId;
