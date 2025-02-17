@@ -5,8 +5,9 @@
 Tech Stacks
 
 ```
-Language: Java
-DataBase: PostgreSQL
+Language: Java, NextJs, Xterm.js
+DataBase: PostgreSQL 
+Tools: Supabase, Render
 ```
 ---
 
@@ -42,4 +43,11 @@ DataBase: PostgreSQL
     Admin Panel to Manage Routes & Shipments
     Customer Panel for Booking, Payment & Tracking
     Dynamic Shipment Status Updates
+
+*DataBase Schema*
+
+![image](https://github.com/user-attachments/assets/59abb4f6-04ad-47a7-83d0-d68fc2a6a491)
+
+---
+
 
